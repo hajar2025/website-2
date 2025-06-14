@@ -1,0 +1,80 @@
+nav ul{
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    gap: 2rpm;
+
+}
+nav a:hover{
+    color: forestgreen;
+}
+
+
+
+
+
+body{
+    background-color: rgb(46, 45, 45);
+}
+section h1{
+    font-size:70px ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 100px;
+    margin-left: 100px;
+
+}
+
+section h1 span{
+    color: forestgreen;
+    display:flex;
+
+}
+section ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: space-around;
+}
+section li{
+    color: rgb(255, 246, 246);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+}
+.title{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 350%;
+
+    color:forestgreen;
+
+}
+.art{
+    font-family: 'Courier New', Courier, monospace;  
+    display: flex; 
+    justify-content: center;
+}
+section p{
+    font-family:'Times New Roman', Times, serif;
+    color:gray
+
+}
+section h2{
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+
+
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+form label{
+    color:antiquewhite;
+    
+}
